@@ -1,0 +1,13 @@
+name = "WebAuthn"
+uuid = "8b42f667-0a3c-4905-acef-8ff2865e3338"
+authors = ["Randy Gobbel"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
